@@ -11,8 +11,8 @@
     the images as variables */
 
     :root {
-      --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-      --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+      --header-image: url("/header.jpg");
+      --body-bg-image: url("/bg.png");
 
       /* colors */
       --content: #43256E;
@@ -57,10 +57,9 @@ and then link it! Many fonts have separate files for each style
       font-family: 'Nunito', sans-serif;
       margin: 0;
       background-color: #08031A;
-      /* you can delete the line below if you'd prefer to not use an image */
-      background-size: 65px;
       color: #fceaff;
       background-image: var(--body-bg-image);
+      background-size: cover;
   }
 
   * {
@@ -106,7 +105,7 @@ text-decoration:none; */
       /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
       background-image: var(--header-image);
-      background-size: 100%;
+      background-size: 100% auto;
   }
 
   /* navigation section!! */
@@ -115,6 +114,7 @@ you can add them directly to the <div id="header"></div> element! */
       background-color: #13092D;
       /* navbar color */
       width: 100%;
+      border-radius: 0 0 3em 3em;
   }
 
   #navbar ul {
@@ -157,6 +157,7 @@ create styles for #leftSidebar and #rightSidebar */
       padding: 20px;
       font-size: smaller;
       /* this makes the sidebar text slightly smaller */
+      border-radius: 3em 0 0 3em;
   }
 
 
@@ -167,6 +168,7 @@ between the sidebars! */
       flex: 1;
       padding: 20px;
       order: 2;
+      border-radius: 0 3em 3em 0;
   }
 
   /* what's this "order" stuff about??
@@ -191,6 +193,7 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
       padding: 10px;
       text-align: center;
       /* this centers the footer text */
+      border-radius: 3em 3em 0 0;
   }
 
   h1,
@@ -250,6 +253,11 @@ feel free to play around with the order!
 */
       main {
           order: 1;
+          border-radius: 3em 3em 0 0;
+      }
+
+      aside {
+        border-radius: 0 0 3em 3em;
       }
 
       #leftSidebar {
