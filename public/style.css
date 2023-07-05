@@ -330,6 +330,10 @@ feel free to play around with the order!
           order: 1;
       }
 
+      table {
+        max-width: 100%;
+      }
+
       /* aside {
       } */
 
