@@ -31,7 +31,12 @@ and then link it! Many fonts have separate files for each style
 
   @font-face {
     font-family: Merienda;
-    src: "Merienda-VariableFont_wght.ttf";
+    src: url('https://nimbaa.neocities.org/Merienda-VariableFont_wght.ttf');
+  }
+
+  @font-face {
+    font-family: "Dancing Script";
+    src: url('https://nimbaa.neocities.org/DancingScript-VariableFont_wght.ttf');
   }
 
   @font-face {
@@ -120,6 +125,7 @@ you can add them directly to the <div id="header"></div> element! */
       /* navbar color */
       width: 100%;
       border-radius: 0 0 3em 3em;
+      font-family: "Dancing Script", "Lucida Calligraphy";
   }
 
   #navbar ul {
@@ -202,14 +208,20 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
       border-radius: 3em 3em 0 0;
   }
 
+  h {
+    font-family: "Dancing Script", "Lucida Calligraphy";
+  }
+
   h1,
   h2,
   h3 {
       color: #f56464;
+      font-family: "Dancing Script", "Lucida Calligraphy";
   }
 
   h1 {
       font-size: 25px;
+      font-family: "Dancing Script", "Lucida Calligraphy";
   }
 
   strong {
