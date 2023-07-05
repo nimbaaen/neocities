@@ -327,15 +327,17 @@ since the sidebars would be too small on a mobile device.
 feel free to play around with the order!
 */
       main {
-          order: 1;
+        order: 1;
+        max-width: 100%;
       }
 
       table {
         max-width: 100%;
       }
 
-      /* aside {
-      } */
+      aside {
+        max-width: 100%;
+      }
 
       #leftSidebar {
           order: 2;
