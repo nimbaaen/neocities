@@ -328,20 +328,14 @@ feel free to play around with the order!
 */
       main {
         order: 1;
-        max-width: 100%;
-      }
-
-      table {
-        max-width: 100%;
       }
 
       iframe {
-        max-width: 70%;
+        max-width: 90%;
       }
 
-      aside {
-        max-width: 100%;
-      }
+      /* aside {
+      } */
 
       #leftSidebar {
           order: 2;
