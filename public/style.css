@@ -335,6 +335,10 @@ feel free to play around with the order!
         max-width: 100%;
       }
 
+      iframe {
+        max-width: 70%;
+      }
+
       aside {
         max-width: 100%;
       }
