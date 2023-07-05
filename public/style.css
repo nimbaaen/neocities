@@ -328,12 +328,10 @@ feel free to play around with the order!
 */
       main {
           order: 1;
-          border-radius: 3em 3em 0 0;
       }
 
-      aside {
-        border-radius: 0 0 3em 3em;
-      }
+      /* aside {
+      } */
 
       #leftSidebar {
           order: 2;
