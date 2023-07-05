@@ -162,7 +162,7 @@ create styles for #leftSidebar and #rightSidebar */
       padding: 20px;
       font-size: smaller;
       /* this makes the sidebar text slightly smaller */
-      border-radius: 3em 0 0 3em;
+      /* border-radius: 3em 0 0 3em; */
   }
 
 
@@ -173,7 +173,8 @@ between the sidebars! */
       flex: 1;
       padding: 20px;
       order: 2;
-      border-radius: 0 3em 3em 0;
+      min-width: 35em;
+      /* border-radius: 0 3em 3em 0; */
   }
 
   /* what's this "order" stuff about??
