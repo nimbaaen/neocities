@@ -30,6 +30,11 @@ and then link it! Many fonts have separate files for each style
 */
 
   @font-face {
+    font-family: Merienda;
+    src: "Merienda-VariableFont_wght.ttf";
+  }
+
+  @font-face {
       font-family: Nunito;
       src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
   }
@@ -54,7 +59,7 @@ and then link it! Many fonts have separate files for each style
   }
 
   body {
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Merienda','Nunito', sans-serif;
       margin: 0;
       background-color: #451414;
       color: #fceaff;
