@@ -69,7 +69,9 @@ and then link it! Many fonts have separate files for each style
       background-color: #451414;
       color: #fceaff;
       background-image: var(--body-bg-image);
-      background-size: cover;
+      background-repeat: repeat-y;
+      /* background-size: cover; */
+      background-size: 100% auto;
   }
 
   * {
